@@ -15,13 +15,14 @@ Refer the Predictive_Maintainence_data.ipynb notebook for EDA performed on the d
 
 ## Usage
 For live demo:
-[python3 app.py](https://janhavighuge-predictive-maintainence.onrender.com/)https://janhavighuge-predictive-maintainence.onrender.com/
+https://janhavighuge-predictive-maintainence.onrender.com/ 
 
 Side bar panel select Predict
   Required input parameters 
   - Process Temperature in K
   - Rotational speed of the machine in rpm
-  - Heat Dissipation Failure (Failure = 1)
+  - Heat Dissipation Failure
+
 Side bar panel select Explore
   To see simple analysis of the dataset
 
