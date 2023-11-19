@@ -1,12 +1,32 @@
 # Air Temperature Prediction of Machine at failure
-This model predicts the Air temperature of a machine when machine failure occurs
 
-Used sklearn, pandas, streamlit and Heroku.
+This model predicts the air temperature of a machine at failure.
+It is trained using linear regression on the AI4I 2020 Predictive Maintenance Dataset from the UCI Machine Learning Repository.
+Refer the Predictive_Maintainence_data.ipynb notebook for EDA performed on the dataset.
 
-The model is trained using Linear Regression
-Dataset is taken from UCI Machine Learning Repository named AI4I 2020 Predictive Maintenance Dataset.
-The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry.
+## Python Libraries Used
+- scikit-learn
+- streamlit
+- pandas
+- pickle
+- pandas_profiling
+- plotly.express
+- statsmodels
 
-Run the project using link: https://predictivemaintainence.herokuapp.com/
+## Usage
+For live demo:
+[python3 app.py](https://janhavighuge-predictive-maintainence.onrender.com/)https://janhavighuge-predictive-maintainence.onrender.com/
+
+Side bar panel select Predict
+  Required input parameters 
+  - Process Temperature in K
+  - Rotational speed of the machine in rpm
+  - Heat Dissipation Failure (Failure = 1)
+Side bar panel select Explore
+  To see simple analysis of the dataset
+
+## Screen Recording
+![predictive_maintainence](https://github.com/ghugejanhavi/Predictive_Maintainence/assets/72988080/d3aa354a-5137-468e-8969-5b5df07ef888)
+
 
 
